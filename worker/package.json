@@ -8,7 +8,7 @@
     "lint": "eslint src",
     "deploy": "wrangler deploy --minify",
     "start": "wrangler dev",
-    "build": "wrangler deploy --dry-run --outdir dist --minify"
+    "build": "esbuild index.ts --bundle --outfile=dist/_worker.js --format=esm --platform=neutral"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260310.1",
