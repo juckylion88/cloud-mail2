@@ -48,8 +48,8 @@ PREFIX = "tmp"
 # ADMIN_CONTACT = "xx@xx.xxx"
 # Create new address with default domain first, if set true, will use first domain from DEFAULT_DOMAINS when no domain specified
 # CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST = false
-# domain name for no role users
-# all domain names
+DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
+DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
 # For chinese domain name, you can use DOMAIN_LABELS to show chinese domain name
 # DOMAIN_LABELS = ["中文.xxx", "xxx.xxx2"]
 # USER_DEFAULT_ROLE = "vip" # default role for new users(only when enable mail verification)
@@ -59,6 +59,7 @@ PREFIX = "tmp"
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "vip", prefix = "vip" },
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "admin", prefix = "" },
 # ]
+JWT_SECRET = "xxx"
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
@@ -134,6 +135,10 @@ ENABLE_AUTO_REPLY = false
 # ]
 # """
 
+[[d1_databases]]
+binding = "DB"
+database_name = "xxx"
+database_id = "xxx"
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
