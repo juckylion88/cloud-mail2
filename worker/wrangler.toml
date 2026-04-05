@@ -59,7 +59,7 @@ DOMAINS = ["juckyone.top","juckyone.icu"] # all domain names
 #    { domains = ["juckyone.top","juckyone.icu"], role = "vip", prefix = "vip" },
 #    { domains = ["juckyone.top","juckyone.icu"], role = "admin", prefix = "" },
 # ]
-JWT_SECRET = "59n8iqPH5tvBbKyOvIGGonIQk6NDreJe1ZXe1h2t9q4"
+JWT_SECRET = "4ZsdwWEN5V3nqnB9w1GpXsYWBb"
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
