@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-		"deploy": "cd ../frontend && pnpm install && pnpm run build && cd ../worker && wrangler deploy",
     "dev": "wrangler dev",
     "lint": "eslint src",
     "deploy": "wrangler deploy --minify",
