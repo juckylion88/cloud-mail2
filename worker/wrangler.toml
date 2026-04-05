@@ -9,10 +9,10 @@ keep_vars = true
 # ]
 
 # if you want deploy worker with frontend assets, you need to add assets
-# [assets]
-# directory = "../frontend/dist/"
-# binding = "ASSETS"
-# run_worker_first = true
+[assets]
+directory = "../frontend/dist/"
+binding = "ASSETS"
+run_worker_first = true
 
 # enable cron if you want set auto clean up
 # [triggers]
@@ -137,8 +137,8 @@ ENABLE_AUTO_REPLY = false
 
 # [[d1_databases]]
 # binding = "DB"
-# database_name = "xxx"
-# database_id = "xxx"
+# database_name = "email"
+# database_id = "abc3ee0a-10cf-4520-a4b7-18799e2316f4"
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
